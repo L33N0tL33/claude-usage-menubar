@@ -31,24 +31,6 @@ and how many tokens you have used **per model since day one**.
   limits straight from Claude. See [How it works](#how-it-works).
 - **Native and light.** One Swift file, no dependencies, no Dock icon, follows light and dark mode.
 
-## Install
-
-Short version, for people who have done this before:
-
-```bash
-xcode-select --install        # skip if you already have Xcode or the command line tools
-git clone https://github.com/L33N0tL33/claude-usage-menubar.git
-cd claude-usage-menubar
-./build.sh
-```
-
-The script compiles the app (under a minute), puts **Claude Usage.app** in `~/Applications` and opens it.
-Look for the small bar-chart icon in the top right of your menu bar. New to Terminal? Follow the
-[step-by-step guide](#installation-guide-step-by-step) below.
-
-**Want your own icon?** Put a square, transparent `logo.png` next to `build.sh` before building and it
-becomes the menu bar and panel icon. Without one, a plain bar-chart symbol is used.
-
 ## Installation guide (step by step)
 
 ### Before you start
